@@ -23,15 +23,26 @@ Command-Line Arguments
 The script supports several command-line arguments to customize the attack:
 
 -u, --url: Target URL (required).
+
 -l, --key-len: Length of the key to retrieve (default: 48).
+
 -o, --oracle: Oracle text used for validation (default: 'Index was outside the bounds of the array.').
+
 -v, --version: Specific Telerik version to use.
+
 -c, --charset: Key character set (options: all, hex, printable; default: hex).
+
 -a, --accuracy: Maximum accuracy threshold (default: 9).
+
 -r, --resume-key: Resume testing with a partial or complete key.
+
 -p, --proxy: Proxy server (e.g., 127.0.0.1:8080).
+
 --cookies: Cookies to be included in the request (format: key=value; key2=value2).
+
+
 Example Usage
+
 python3 dp_crypto_authed.py k -u https://target.com/Telerik.Web.UI.DialogHandler.aspx --cookies 'ASP.NET_SessionId=example; .ASPXAUTH=example' -v 2013.3.1114
 
 # Detailed Steps
