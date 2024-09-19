@@ -15,7 +15,7 @@ Python 3.x
 requests library
 Install the required dependencies with:
 
-pip install requests
+```pip install requests```
 
 # Usage
 
